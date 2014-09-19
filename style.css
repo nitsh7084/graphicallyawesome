@@ -19,6 +19,14 @@ src:url('SourceSansPro-Bold.ttf');
 font-family:'SourceSansBold';
 }
 @font-face{
+src:url('BrandonGrotesqueLight.ttf');
+font-family:'BGLight';
+}
+@font-face{
+src:url('BrandonGrotesqueMedium.ttf');
+font-family:'BGMedium';
+}
+@font-face{
 src:url('Montserrat-Bold.ttf');
 font-family:'MontserratBold';
 }
@@ -79,7 +87,7 @@ width:25%;
 color:#00a4e4;
 }
 .overlay_results_container{
-padding-top:113px;
+padding-top:93px;
 width:100%;
 min-height:320px;
 }
@@ -170,4 +178,32 @@ cursor:pointer;
 }
 .overlay_header_right ul li:hover{
 color:#00a4e4;
+}
+.overlay_buttons{
+width:100%;
+text-align:center;
+}
+.overlay_button{
+font-family:'BGLight';
+font-size:15px;
+color:#fff;
+border:none;
+background:#1ebba6;
+height:52px;
+line-height:52px;
+width:290px;
+text-align:center;
+margin:62px 0px;
+margin-bottom:2px;
+cursor:pointer;
+border-bottom:2px solid rgba(0,0,0,.33);
+border-radius:5px;
+
+-webkit-transition:all .2s ease;
+-moz-transition:all .2s ease;
+-ms-transition:all .2s ease;
+-o-transition:all .2s ease;
+}
+.overlay_button:hover{
+background:#14a488;
 }
