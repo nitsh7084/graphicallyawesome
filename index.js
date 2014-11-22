@@ -27,7 +27,7 @@ if(arr.length != 0){
 var rnum = Math.floor(Math.random()*arr.length);
 var num = arr[rnum];
 $('#lightbox_box_'+num).addClass('show');
-arr.splice(arr[num],1);
+arr.splice(arr[num]-1,1);
 console.log(arr.length+'<br/>'+rnum);
 }else{
 clearInteval(clear_interval);
