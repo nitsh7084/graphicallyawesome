@@ -16,7 +16,7 @@ $('.lightbox_box').bind('click',function(){
 $('.graph_lightbox, .lightbox_box').removeClass('show');
 });
 
-for(var i=1;i<=20;i++){
+for(var i=1;i<=25;i++){
 boxes_arr.push(i);
 }
 
