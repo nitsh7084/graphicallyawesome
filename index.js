@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 var boxes_arr = new Array();
+var clear_interval;
 
 setTimeout(function(){
 $('.overlay_result_container').addClass('show_overlay_result');
@@ -22,13 +23,17 @@ boxes_arr.push(i);
 
 function shuffle_array(arr){
 
+if(arr.length != 0){
 var rnum = Math.floor((Math.random()*arr.length)+1);
 console.log(rnum);
+}else{
+clearInteval(clear_interval);
+}
 
 }
 
 
-setTimeout(function(){
+clear_interval = setInterval(function(){
 shuffle_array(boxes_arr);
 },600);
 
