@@ -25,6 +25,9 @@ function shuffle_array(arr){
 
 if(arr.length != 0){
 var rnum = Math.floor((Math.random()*arr.length)+1);
+var num = arr[rnum];
+$('#lightbox_box_'+num).addClass('show');
+arr.push(arr[num]);
 console.log(rnum);
 }else{
 clearInteval(clear_interval);
