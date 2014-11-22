@@ -9,4 +9,8 @@ $('.graph_lightbox').addClass('show');
 $('.lightbox_box').addClass('show');
 });
 
+$('.lightbox_box').bind('click',function(){
+$('.graph_lightbox, .lightbox_box').removeClass('show');
+});
+
 });
