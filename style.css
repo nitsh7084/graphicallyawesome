@@ -278,6 +278,11 @@ transition:all .2s cubic-bezier(.98,0,1,.28);
 opacity:1;
 pointer-events:auto;
 z-index:100001;
+transition:all .2s cubic-bezier(.98,0,1,.28);
+-webkit-transition:all .2s cubic-bezier(.98,0,1,.28);
+-moz-transition:all .2s cubic-bezier(.98,0,1,.28);
+-o-transition:all .2s cubic-bezier(.98,0,1,.28);
+-ms-transition:all .2s cubic-bezier(.98,0,1,.28);
 }
 .lightbox_box_clear{
 height:0px;
