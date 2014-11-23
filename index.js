@@ -9,6 +9,7 @@ $('.overlay_result_container').addClass('show_overlay_result');
 
 $('.overlay_button').bind('click',function(){
 $('.graph_lightbox').addClass('show');
+console.log(boxes_arr);
 show_boxes();
 });
 
