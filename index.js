@@ -34,10 +34,11 @@ clearInterval(clear_interval);
 
 }
 
+/*
 clear_interval = setInterval(function(){
 shuffle_array(boxes_arr);
 },1200);
-
+*/
 
 
 });
