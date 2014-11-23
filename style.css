@@ -295,3 +295,23 @@ height:0px;
 width:0px;
 clear:both;
 }
+.lightbox_modal_title{
+width:100%;
+padding:8px 0px;
+text-align:center;
+font-family:'MontserratBold';
+font-size:21px;
+color:rgba(0,0,0,.83);
+}
+.lightbox_modal_field_title, .lightbox_modal_field{
+width:100%;
+text-align:center;
+padding:8px 0px;
+}
+.lightbox_modal_field_title{
+font-family:'AvenirLight';
+font-size:21px;
+color:rgba(0,0,0,.83);
+font-size:18px;
+padding:8px 0px;
+}
