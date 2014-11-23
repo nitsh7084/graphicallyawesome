@@ -40,7 +40,11 @@ function shuffle(array) {
 }
 
 shuffle(boxes_arr);
+
+clear_interval = setInterval(function(){
+shuffle(boxes_arr);
 console.log(boxes_arr);
+},600);
 
 function shuffle_array(arr){
 
