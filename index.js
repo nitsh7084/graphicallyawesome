@@ -25,7 +25,7 @@ function shuffle_array(arr){
 if(arr.length != 0){
 var rnum = Math.floor(Math.random()*arr.length);
 $('#lightbox_box_'+rnum).addClass('show');
-arr.splice(arr[rnum]-1,1);
+boxes_arr.splice(arr[rnum]-1,1);
 console.log(arr.length+'<br/>'+rnum);
 }else{
 clearInterval(clear_interval);
