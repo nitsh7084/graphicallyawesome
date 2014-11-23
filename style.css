@@ -30,6 +30,10 @@ font-family:'BGMedium';
 src:url('Montserrat-Bold.ttf');
 font-family:'MontserratBold';
 }
+@font-face{
+src:url('Avenir LT 35 Light.ttf');
+font-family:'AvenirLight';
+}
 .container{
 width:100%;
 min-height:100%;
