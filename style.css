@@ -311,7 +311,7 @@ padding-top:17px;
 .lightbox_modal_field_title, .lightbox_modal_field{
 width:100%;
 text-align:center;
-padding:8px 0px;
+padding:13px 0px;
 }
 .lightbox_modal_field_title{
 font-family:'AvenirLight';
@@ -319,4 +319,13 @@ font-size:21px;
 color:rgba(0,0,0,.83);
 font-size:18px;
 padding:8px 0px;
+}
+.modal_field_input{
+font-size:17px;
+padding:9px 12px;
+font-family:'AvenirLight';
+color:rgba(0,0,0,.83);
+border:none;
+border-radius:2px;
+
 }
