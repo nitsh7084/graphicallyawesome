@@ -244,7 +244,7 @@ pointer-events:auto;
 z-index:10001;
 }
 .graph_lightbox_modal.show{
-opacity:0;
+opacity:1;
 pointer-events:auto;
 z-index:100001;
 }
