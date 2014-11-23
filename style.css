@@ -304,8 +304,9 @@ width:100%;
 padding:8px 0px;
 text-align:center;
 font-family:'MontserratBold';
-font-size:21px;
+font-size:24px;
 color:rgba(0,0,0,.83);
+padding-top:17px;
 }
 .lightbox_modal_field_title, .lightbox_modal_field{
 width:100%;
