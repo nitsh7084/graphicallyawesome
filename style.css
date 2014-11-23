@@ -263,7 +263,7 @@ transition:all .2s cubic-bezier(.98,0,1,.28);
 .lightbox_box{
 height:20%;
 width:20%;
-background:#323446
+background:#323446;
 float:left;
 opacity:0;
 pointer-events:none;
