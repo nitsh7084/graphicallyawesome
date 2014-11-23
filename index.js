@@ -63,7 +63,7 @@ clearInterval(clear_interval);
 function show_boxes(){
 clear_interval = setInterval(function(){
 shuffle_array(boxes_arr);
-},100);
+},80);
 
 }
 
