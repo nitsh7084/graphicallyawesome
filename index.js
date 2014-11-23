@@ -26,7 +26,7 @@ if(arr.length != 0){
 var rnum = Math.floor(Math.random()*arr.length);
 $('.graph_lightbox').addClass('show');
 $('#lightbox_box_'+rnum).addClass('show');
-boxes_arr.splice(arr[rnum]-1,1);
+boxes_arr.splice(arr[rnum],1);
 console.log(arr.length+'<br/>'+rnum);
 }else{
 clearInterval(clear_interval);
