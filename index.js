@@ -9,12 +9,13 @@ $('.overlay_result_container').addClass('show_overlay_result');
 
 $('.overlay_button').bind('click',function(){
 $('.graph_lightbox').addClass('show');
-$('.lightbox_box').addClass('show');
+show_boxes();
 });
 
 $('.lightbox_box').bind('click',function(){
 $('.graph_lightbox, .lightbox_box').removeClass('show');
 });
+
 
 for(var i=1;i<=25;i++){
 boxes_arr.push(i);
@@ -35,9 +36,13 @@ clearInterval(clear_interval);
 }
 
 
+function show_boxes(){
 clear_interval = setInterval(function(){
 shuffle_array(boxes_arr);
 },200);
+
+}
+
 
 
 });
