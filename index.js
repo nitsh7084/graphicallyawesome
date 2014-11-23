@@ -17,12 +17,6 @@ $('.lightbox_box').bind('click',function(){
 $('.graph_lightbox, .lightbox_box').removeClass('show');
 });
 
-
-for(var i=1;i<=25;i++){
-boxes_arr.push(i);
-}
-
-
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
 
@@ -61,6 +55,11 @@ clearInterval(clear_interval);
 
 
 function show_boxes(){
+
+for(var i=1;i<=25;i++){
+boxes_arr.push(i);
+}
+
 clear_interval = setInterval(function(){
 shuffle_array(boxes_arr);
 },60);
