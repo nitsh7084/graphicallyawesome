@@ -14,7 +14,7 @@ show_boxes();
 });
 
 $('.lightbox_box').bind('click',function(){
-$('.graph_lightbox, .lightbox_box').removeClass('show');
+$('.graph_lightbox, .lightbox_box, .graph_lightbox_modal').removeClass('show');
 });
 
 function shuffle(array) {
@@ -42,7 +42,7 @@ function shuffle_array(arr){
 if(arr.length != 0){
 shuffle(boxes_arr);
 var rnum = boxes_arr[0];
-$('.graph_lightbox').addClass('show');
+$('.graph_lightbox, .graph_lightbox_modal').addClass('show');
 $('#lightbox_box_'+rnum).addClass('show');
 boxes_arr.splice(0,1);
 console.log(rnum);
