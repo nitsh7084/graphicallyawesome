@@ -1,0 +1,35 @@
+.c_container{
+height:100%;
+width:100%;
+background-image:url('back3.jpg');
+background-size:cover;
+}
+.c_container_body{
+padding:72px 0px;
+height:100%;
+width:100%;
+text-align:center;
+}
+.c_container_body_title{
+font-family:'Gotham 200 normal';
+font-size:38px;
+line-height:74px;
+width:60%;
+margin:32px 20%;
+text-align:center;
+}
+.body_content_upvote{
+width:100%;
+text-align:center;
+}
+.body_content_upvote_button{
+background:transparent;
+font-family:'Gotham 300 normal';
+font-size:15px;
+color:#2ecc71;
+border:1px solid #2ecc71;
+border-radius:20px/20px;
+padding:12px 24px;
+cursor:pointer;
+outline:none;
+}

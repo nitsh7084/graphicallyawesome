@@ -49,6 +49,10 @@ console.log(rnum);
 console.log(boxes_arr);
 }else{
 clearInterval(clear_interval);
+setTimeout(function(){
+$('.lightbox_modal_title').addClass('show');
+$('.lightbox_modal_field_container').addClass('show');
+},1200);
 }
 
 }

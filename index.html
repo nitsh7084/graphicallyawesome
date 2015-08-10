@@ -2,6 +2,7 @@
 <html>
 <head>
 <title></title>
+<link rel="stylesheet" type="text/css" href="gotham.css" />
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
@@ -17,8 +18,8 @@ GRAPHICALLY <span class="logo_awesome">AWESOME</span>
 </div>
 <div class="overlay_header_right">
 <ul>
-<li>CATEGORIES</li>
-<li>TOP 10</li>
+<li><a href="categories.html">CATEGORIES</a></li>
+<li><a href="top10.html">TOP 10</a></li>
 </ul>
 </div>
 </div>
@@ -189,15 +190,24 @@ Sisters of my friends who are single
 </div>
 <div class="graph_lightbox_modal">
 <div class="lightbox_modal_title">
-ADD A SEARCH
+Add a Search
 </div>
 
+<div class="lightbox_modal_field_container">
 <div class="lightbox_modal_field_title">
 Enter a graph search query which you think is cool to explore. For ex. Pages liked by people who are over the age of 25.
 </div>
 
+<form>
 <div class="lightbox_modal_field">
 <input type="text" name="modal_field_input" class="modal_field_input" placeholder="Enter a graph search query." />
+</div>
+
+<div class="lightbox_modal_field">
+<input type="submit" class="modal_field_submit" value="Add" name="modal_field_submit" />
+</div>
+
+</form>
 </div>
 </div>
 </div>

@@ -1,0 +1,117 @@
+*{
+margin:0px;
+padding:0px;
+}
+html,body{
+height:100%;
+width:100%;
+}
+@font-face{
+src:url('SourceSansPro-Regular.ttf');
+font-family:'SourceSansRegular';
+}
+@font-face{
+src:url('SourceSansPro-Light.ttf');
+font-family:'SourceSansLight';
+}
+@font-face{
+src:url('SourceSansPro-Bold.ttf');
+font-family:'SourceSansBold';
+}
+@font-face{
+src:url('BrandonGrotesqueLight.ttf');
+font-family:'BGLight';
+}
+@font-face{
+src:url('BrandonGrotesqueMedium.ttf');
+font-family:'BGMedium';
+}
+@font-face{
+src:url('Montserrat-Bold.ttf');
+font-family:'MontserratBold';
+}
+@font-face{
+src:url('Avenir LT 35 Light.ttf');
+font-family:'AvenirLight';
+}
+.c_container{
+height:100%;
+width:100%;
+background-image:url('back3.jpg');
+background-size:cover;
+}
+.c_container_title{
+width:100%;
+text-align:center;
+font-family:'MontserratBold';
+font-size:34px;
+padding:6% 0%;
+margin-top:4%;
+}
+.c_container_body{
+width:100%;
+margin:2% 0%;
+}
+.cat_item_container{
+float:left;
+width:25%;
+position:relative;
+height:180px;
+cursor:pointer;
+
+}
+.cat_item_text{
+font-family:'Gotham 500 normal';
+font-size:24px;
+color:#fff;
+z-index:10001;
+height:100%;
+width:100%;
+background:rgba(0,0,0,.53);
+line-height:180px;
+text-align:center;
+
+transition:all .2s ease;
+-webkit-transition:all .2s ease;
+-moz-transition:all .2s ease;
+-ms-transition:all .2s ease;
+-o-transition:all .2s ease;
+}
+.cat_item_container:hover .cat_item_text{
+background:rgba(0,0,0,.23);
+}
+#cat_item_container1{
+background:url('technology1.jpg');
+background-size:cover;
+}
+.cat_item_container:nth-child(2){
+background-image:url('relationship1.jpg');
+background-size:cover;
+}
+.cat_item_container:nth-child(3){
+background-image:url('social1.jpg');
+background-size:cover;
+}
+.cat_item_container:nth-child(4){
+background-image:url('event1.png');
+background-size:cover;
+}
+.cat_item_container:nth-child(5){
+background-image:url('programming1.jpg');
+background-size:cover;
+}
+.cat_item_container:nth-child(6){
+background-image:url('celebrity1.jpg');
+background-size:cover;
+}
+.cat_item_container:nth-child(7){
+background-image:url('apps1.jpg');
+background-size:cover;
+}
+.cat_item_container:nth-child(8){
+background-image:url('photos1.jpg');
+background-size:cover;
+}
+.cat_item_clear{
+clear:both;
+}
