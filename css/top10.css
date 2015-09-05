@@ -37,7 +37,7 @@ font-family:'AvenirLight';
 .c_container{
 height:100%;
 width:100%;
-background-image:url('back3.jpg');
+background-image:url('../images/back3.jpg');
 background-size:cover;
 }
 .c_container_title{
