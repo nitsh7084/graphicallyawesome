@@ -189,18 +189,15 @@ text-align:center;
 }
 .overlay_button{
 font-family:'Gotham 500 normal';
-font-size:15px;
+font-size:13px;
 color:#fff;
 border:none;
 background:#14a488;
-height:52px;
-line-height:52px;
-width:240px;
-text-align:center;
+padding:14px 52px;
 margin:62px 0px;
 margin-bottom:2px;
 cursor:pointer;
-border-radius:2px;
+border-radius:32px/32px;
 @include property1(transition,'all .2s ease 0s');
 }
 .overlay_button:hover{
