@@ -144,7 +144,7 @@ opacity:1;
 }
 
 .overlay_result_container.show_overlay_result{
-@include property1(animation,'show_overlay_result .3s ease forwards;');
+@include property1(animation,'show_overlay_result .2s ease forwards;');
 }
 #overlay_result_container1{
 

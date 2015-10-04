@@ -117,11 +117,11 @@ html, body {
     -o-transform: translateY(0px);
     -ms-transform: translateY(0px); } }
 .overlay_result_container.show_overlay_result {
-  animation: show_overlay_result .3s ease forwards;;
-  -webkit-animation: show_overlay_result .3s ease forwards;;
-  -moz-animation: show_overlay_result .3s ease forwards;;
-  -ms-animation: show_overlay_result .3s ease forwards;;
-  -o-animation: show_overlay_result .3s ease forwards;; }
+  animation: show_overlay_result .2s ease forwards;;
+  -webkit-animation: show_overlay_result .2s ease forwards;;
+  -moz-animation: show_overlay_result .2s ease forwards;;
+  -ms-animation: show_overlay_result .2s ease forwards;;
+  -o-animation: show_overlay_result .2s ease forwards;; }
 
 #overlay_result_container1 {
   animation-delay: .3s;
